@@ -1,3 +1,7 @@
+/* services hover color */
+/* services text color */
+/* services text color */
+
 /*Table Content
  =================================================
  * BASIC STYLE
@@ -1202,12 +1206,17 @@ figure {
 	margin: 0px;
 }
 .bg-img {
-	background: url(https://image.shutterstock.com/z/stock-photo-spring-cleaning-background-and-free-space-for-your-product-788984521.jpg) 0 36% no-repeat;
+	background: url(../images/aboutUsWEB6.jpg) 0 36% no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.bg-imgContact {
+	background: url(../images/contactUsWEB.jpg) 0 36% no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
 .overlay-before:before {
-	background-color: rgba(0, 0, 0, 0.69);
+	background-color: rgba(0, 0, 0, 0.49);
 	left: 0;
 	top: 0;
 	position: absolute;
@@ -4149,22 +4158,22 @@ transform: scale(1);
 	-webkit-transition: all 0.3s linear 0s;
 	opacity: 1;
 }
-.gallery-heading h4 {
-	margin: 0;
+.gallery-heading h4 { /* default h4 */
+	margin: 10%;
 	font-size: 18px;
 }
-.gallery-heading h4 a {
+.gallery-heading h5 a { /* default h4 */
 	width: auto;
 	color:#313d85;
 	height: auto;
 	line-height: normal;
 	transition: all 0.3s;
-	    font-size: 20px;
+	font-size: 20px;
     font-weight: 600;
     background: transparent;
 }
-.gallery-heading h4 a:hover {
-	color: #daa106;
+.gallery-heading h4 {
+	color: white; /* services text color */
 }
 .gallery-heading {
 	transition: all 0.2s linear 0s;
@@ -4178,24 +4187,26 @@ transform: scale(1);
 	-webkit-transition: all 0.3s linear 0.1s;
 }
 .link-zoom {
-	text-align: center;
+	text-align: center; /* default center */
 	transition: all 0.2s linear 0s;
 	-webkit-transition: all 0.2s linear 0s;
 	position: absolute;
-	top: 55%;
-	left: 50%;
+	top: 50%; /* default 55% */
+	left: 50%; /* default 50% */
 	z-index: 1;
 	transform: translate(-50%,-50%);
 	-webkit-transform: translate(-50%,-50%);
-	opacity: 0;
+	opacity: 1;
 	width: 100%;
 }
+/*
 .item-box:hover .link-zoom {
 	top: 50%;
 	opacity: 1;
 	transition: all 0.2s ease-out 0s;
 	-webkit-transition: all 0.2s ease-out 0s;
 }
+
 .link-zoom a.same_style {
 	width: 40px;
 	height: 40px;
@@ -4207,6 +4218,7 @@ transform: scale(1);
 	    margin: 10px;
 	    border-radius: 50%;
 }
+*/
 .link-zoom a.project_links {}
 .link-zoom a.same_style:hover{
 	color: #fff !important;
@@ -4249,7 +4261,7 @@ transform: scale(1);
 	border: 2px solid #ccc;
 }
 .item-box:hover:before {
-	background: rgba(255, 255, 255, 0.84);
+	background: rgba(0, 0, 0, 0.20); /* services hover color */
 }
 .item-container {
 	transform: scale(1);
