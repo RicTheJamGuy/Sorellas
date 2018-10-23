@@ -1210,11 +1210,22 @@ figure {
 	-webkit-background-size: cover;
 	background-size: cover;
 }
+.bg-imgServices {
+	background: url(../images/services2WEB.jpg) 0 36% no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.bg-imgEstiamte {
+	background: url(../images/estiamteWEB.jpg) 0 36% no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
 .bg-imgContact {
 	background: url(../images/contactUsWEB.jpg) 0 36% no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
+
 .overlay-before:before {
 	background-color: rgba(0, 0, 0, 0.49);
 	left: 0;

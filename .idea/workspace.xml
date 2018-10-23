@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2b789326-62e8-42b4-bcc0-cf1679150efa" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change beforePath="$PROJECT_DIR$/about1.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/about2.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/about3.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/index_original.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/yellow.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/estimate.html" afterPath="$PROJECT_DIR$/estimate.html" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/services.html" afterPath="$PROJECT_DIR$/services.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +25,7 @@
             <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/assets/css/bootstrap.css">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="23256">
+                  <state relative-caret-position="17">
                     <caret line="1368" column="16" lean-forward="false" selection-start-line="1368" selection-start-column="9" selection-end-line="1368" selection-end-column="16" />
                     <folding />
                   </state>
@@ -46,8 +45,8 @@
             <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/assets/css/style.css">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="255">
-                    <caret line="4161" column="16" lean-forward="true" selection-start-line="4161" selection-start-column="16" selection-end-line="4161" selection-end-column="16" />
+                  <state relative-caret-position="238">
+                    <caret line="1213" column="39" lean-forward="false" selection-start-line="1213" selection-start-column="39" selection-end-line="1213" selection-end-column="39" />
                     <folding />
                   </state>
                 </provider>
@@ -87,7 +86,17 @@
               <entry file="file://$PROJECT_DIR$/portfolio-grid.html">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="624">
-                    <caret line="521" column="26" lean-forward="true" selection-start-line="307" selection-start-column="8" selection-end-line="521" selection-end-column="26" />
+                    <caret line="521" column="26" lean-forward="false" selection-start-line="307" selection-start-column="8" selection-end-line="521" selection-end-column="26" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="estimateRICKY.html" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/estimateRICKY.html">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="-6618">
+                    <caret line="19" column="93" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="19" selection-end-column="93" />
                     <folding />
                   </state>
                 </provider>
@@ -103,8 +112,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3434">
-              <caret line="440" column="33" lean-forward="false" selection-start-line="440" selection-start-column="33" selection-end-line="440" selection-end-column="33" />
+            <state relative-caret-position="374">
+              <caret line="22" column="111" lean-forward="true" selection-start-line="22" selection-start-column="111" selection-end-line="22" selection-end-column="111" />
               <folding />
             </state>
           </provider>
@@ -113,31 +122,47 @@
       <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2567">
-              <caret line="151" column="54" lean-forward="false" selection-start-line="151" selection-start-column="36" selection-end-line="151" selection-end-column="54" />
-              <folding>
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="2618">
+              <caret line="154" column="54" lean-forward="false" selection-start-line="154" selection-start-column="54" selection-end-line="154" selection-end-column="54" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-960">
-              <caret line="135" column="49" lean-forward="false" selection-start-line="135" selection-start-column="49" selection-end-line="135" selection-end-column="49" />
+            <state relative-caret-position="-1215">
+              <caret line="120" column="49" lean-forward="false" selection-start-line="120" selection-start-column="49" selection-end-line="120" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="services.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/services.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="148" column="35" lean-forward="true" selection-start-line="148" selection-start-column="35" selection-end-line="148" selection-end-column="35" />
+            <state relative-caret-position="3655">
+              <caret line="339" column="22" lean-forward="true" selection-start-line="339" selection-start-column="22" selection-end-line="339" selection-end-column="22" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="estimate.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/estimate.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="139" column="42" lean-forward="false" selection-start-line="139" selection-start-column="42" selection-end-line="139" selection-end-column="42" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#div#0;n#div#6;n#form#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#12222#12228#0" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,7 +184,6 @@
       <find>offse</find>
       <find>col-md</find>
       <find>loved</find>
-      <find>bg-img</find>
       <find>Our</find>
       <find>KEEP IN TOUCH</find>
       <find>Our T</find>
@@ -175,6 +199,7 @@
       <find>Af</find>
       <find>Cle</find>
       <find>branding</find>
+      <find>bg-img</find>
       <find>yellow</find>
     </findStrings>
     <replaceStrings>
@@ -205,12 +230,14 @@
         <option value="$PROJECT_DIR$/assets/css/footer.css" />
         <option value="$PROJECT_DIR$/assets/js/custom.js" />
         <option value="$PROJECT_DIR$/assets/css/index.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/contact1.html" />
         <option value="$PROJECT_DIR$/contact.html" />
-        <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/services.html" />
+        <option value="$PROJECT_DIR$/estimate_new.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/estimate.html" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
       </list>
     </option>
   </component>
@@ -279,6 +306,248 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/about.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/css/bootstrap.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/css/form-wizard.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/contact.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/estimate.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/services.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/material-design-iconic-font/css/material-design-iconic-font.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff2</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/muli/Muli-Black.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/muli/Muli-BlackItalic.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/muli/Muli-Bold.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/muli/Muli-BoldItalic.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/muli/Muli-ExtraBold.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/muli/Muli-ExtraBoldItalic.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/muli/Muli-ExtraLight.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/muli/Muli-ExtraLightItalic.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/muli/Muli-Italic.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/muli/Muli-Light.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/muli/Muli-LightItalic.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/muli/Muli-Regular.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/muli/Muli-SemiBold.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/muli/Muli-SemiBoldItalic.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/fonts/muli/OFL.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/js/jquery-3.3.1.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/js/jquery.steps.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/assets/js/main.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/estimate.1.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/form.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/form.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formpage.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/handler.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/FormHandler.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/ReCaptchaValidator.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/index.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/FormGuide/PHPFormValidator/.gitignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/FormGuide/PHPFormValidator/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/FormGuide/PHPFormValidator/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/FormGuide/PHPFormValidator/composer.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/FormGuide/PHPFormValidator/phpunit.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/FormGuide/PHPFormValidator/src/FieldValidator.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/FormGuide/PHPFormValidator/src/FieldValidatorCollection.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/FormGuide/PHPFormValidator/src/FormValidator.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/FormGuide/PHPFormValidator/src/ValidatorMap.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/FormGuide/PHPFormValidator/src/Validators.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/FormGuide/PHPFormValidator/src/ValidatorsList.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/autoload.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/composer/ClassLoader.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/composer/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/composer/autoload_classmap.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/composer/autoload_namespaces.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/composer/autoload_psr4.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/composer/autoload_real.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/composer/autoload_static.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/composer/installed.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/.gitignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/.travis.yml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/CaptchaBuilder.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/CaptchaBuilderInterface.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/Font/captcha0.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/Font/captcha1.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/Font/captcha2.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/Font/captcha3.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/Font/captcha4.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/Font/captcha5.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/ImageFileHandler.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/PhraseBuilder.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/PhraseBuilderInterface.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/autoload.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/composer.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/demo/demo.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/demo/fingerprint.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/demo/index.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/demo/ocr.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/demo/output.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpmailer/phpmailer/.github/ISSUE_TEMPLATE.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpmailer/phpmailer/.github/PULL_REQUEST_TEMPLATE.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpmailer/phpmailer/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpmailer/phpmailer/PHPMailerAutoload.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpmailer/phpmailer/VERSION</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpmailer/phpmailer/class.phpmailer.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpmailer/phpmailer/class.phpmaileroauth.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpmailer/phpmailer/class.phpmaileroauthgoogle.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpmailer/phpmailer/class.pop3.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpmailer/phpmailer/class.smtp.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpmailer/phpmailer/composer.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpmailer/phpmailer/composer.lock</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpmailer/phpmailer/extras/EasyPeasyICS.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpmailer/phpmailer/extras/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpmailer/phpmailer/extras/htmlfilter.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpmailer/phpmailer/extras/ntlm_sasl_client.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpmailer/phpmailer/get_oauth_token.php</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/css/form-wizard.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/css/form-wizard.css.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/css/form-wizard.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/fonts/material-design-iconic-font/css/material-design-iconic-font.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff2</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/fonts/muli/Muli-Black.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/fonts/muli/Muli-BlackItalic.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/fonts/muli/Muli-Bold.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/fonts/muli/Muli-BoldItalic.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/fonts/muli/Muli-ExtraBold.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/fonts/muli/Muli-ExtraBoldItalic.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/fonts/muli/Muli-ExtraLight.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/fonts/muli/Muli-ExtraLightItalic.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/fonts/muli/Muli-Italic.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/fonts/muli/Muli-Light.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/fonts/muli/Muli-LightItalic.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/fonts/muli/Muli-Regular.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/fonts/muli/Muli-SemiBold.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/fonts/muli/Muli-SemiBoldItalic.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/fonts/muli/OFL.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/images/form-wizard-1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/images/form-wizard-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/images/form-wizard-3.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/images/textarea-bg.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/js/jquery-3.3.1.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/js/jquery.steps.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/js/main.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/formWizard/readme.txt</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -397,7 +666,7 @@
       <updated>1539281358181</updated>
       <workItem from="1539281359740" duration="51778000" />
       <workItem from="1539710681103" duration="31484000" />
-      <workItem from="1539982976863" duration="9950000" />
+      <workItem from="1539982976863" duration="15659000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1539710944306</created>
@@ -427,11 +696,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539968470967</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="falta mudar photo no Services.html&#10;mudar textos e icons">
+      <created>1539997382604</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1539997382604</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93212000" />
+    <option name="totallyTimeSpent" value="98921000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -478,7 +754,8 @@
     <MESSAGE value="about col-lg col-md ..." />
     <MESSAGE value="index footer col-lg col-md ..." />
     <MESSAGE value="18/10" />
-    <option name="LAST_COMMIT_MESSAGE" value="18/10" />
+    <MESSAGE value="falta mudar photo no Services.html&#10;mudar textos e icons" />
+    <option name="LAST_COMMIT_MESSAGE" value="falta mudar photo no Services.html&#10;mudar textos e icons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -497,9 +774,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2567">
           <caret line="151" column="54" lean-forward="false" selection-start-line="151" selection-start-column="36" selection-end-line="151" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -683,14 +958,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/about3.html" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3434">
-          <caret line="440" column="33" lean-forward="false" selection-start-line="440" selection-start-column="33" selection-end-line="440" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index_original.html" />
     <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -710,17 +977,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2567">
-          <caret line="151" column="54" lean-forward="false" selection-start-line="151" selection-start-column="36" selection-end-line="151" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="2618">
+          <caret line="154" column="54" lean-forward="false" selection-start-line="154" selection-start-column="54" selection-end-line="154" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23256">
+        <state relative-caret-position="17">
           <caret line="1368" column="16" lean-forward="false" selection-start-line="1368" selection-start-column="9" selection-end-line="1368" selection-end-column="16" />
           <folding />
         </state>
@@ -729,7 +994,7 @@
     <entry file="file://$PROJECT_DIR$/portfolio-grid.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
-          <caret line="521" column="26" lean-forward="true" selection-start-line="307" selection-start-column="8" selection-end-line="521" selection-end-column="26" />
+          <caret line="521" column="26" lean-forward="false" selection-start-line="307" selection-start-column="8" selection-end-line="521" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -742,26 +1007,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1215">
+          <caret line="120" column="49" lean-forward="false" selection-start-line="120" selection-start-column="49" selection-end-line="120" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estimate_new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="382" column="8" lean-forward="false" selection-start-line="382" selection-start-column="8" selection-end-line="382" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="111" lean-forward="true" selection-start-line="22" selection-start-column="111" selection-end-line="22" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estimateRICKY.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6618">
+          <caret line="19" column="93" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="19" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estimate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="139" column="42" lean-forward="false" selection-start-line="139" selection-start-column="42" selection-end-line="139" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#div#0;n#div#6;n#form#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#12222#12228#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="4161" column="16" lean-forward="true" selection-start-line="4161" selection-start-column="16" selection-end-line="4161" selection-end-column="16" />
+        <state relative-caret-position="238">
+          <caret line="1213" column="39" lean-forward="false" selection-start-line="1213" selection-start-column="39" selection-end-line="1213" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/services.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="148" column="35" lean-forward="true" selection-start-line="148" selection-start-column="35" selection-end-line="148" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-960">
-          <caret line="135" column="49" lean-forward="false" selection-start-line="135" selection-start-column="49" selection-end-line="135" selection-end-column="49" />
+        <state relative-caret-position="3655">
+          <caret line="339" column="22" lean-forward="true" selection-start-line="339" selection-start-column="22" selection-end-line="339" selection-end-column="22" />
           <folding />
         </state>
       </provider>
