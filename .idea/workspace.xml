@@ -4,11 +4,6 @@
     <list default="true" id="2b789326-62e8-42b4-bcc0-cf1679150efa" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/services.html" afterPath="$PROJECT_DIR$/services.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -137,8 +132,8 @@
       <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1383">
-              <caret line="467" column="114" lean-forward="false" selection-start-line="467" selection-start-column="114" selection-end-line="467" selection-end-column="114" />
+            <state relative-caret-position="397">
+              <caret line="55" column="39" lean-forward="true" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -682,7 +677,7 @@
       <updated>1539281358181</updated>
       <workItem from="1539281359740" duration="51778000" />
       <workItem from="1539710681103" duration="31484000" />
-      <workItem from="1539982976863" duration="24580000" />
+      <workItem from="1539982976863" duration="25903000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1539710944306</created>
@@ -726,11 +721,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540328899589</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="testimonials done">
+      <created>1540569923977</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1540569923977</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107842000" />
+    <option name="totallyTimeSpent" value="109165000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -779,7 +781,8 @@
     <MESSAGE value="18/10" />
     <MESSAGE value="falta mudar photo no Services.html&#10;mudar textos e icons" />
     <MESSAGE value="falta form wizard!!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="falta form wizard!!!!" />
+    <MESSAGE value="testimonials done" />
+    <option name="LAST_COMMIT_MESSAGE" value="testimonials done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -893,6 +896,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -900,6 +904,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11033">
           <caret line="649" column="28" lean-forward="false" selection-start-line="649" selection-start-column="7" selection-end-line="649" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -971,6 +976,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11033">
           <caret line="649" column="28" lean-forward="false" selection-start-line="649" selection-start-column="7" selection-end-line="649" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -978,6 +984,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1138,8 +1145,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1383">
-          <caret line="467" column="114" lean-forward="false" selection-start-line="467" selection-start-column="114" selection-end-line="467" selection-end-column="114" />
+        <state relative-caret-position="397">
+          <caret line="55" column="39" lean-forward="true" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
           <folding />
         </state>
       </provider>
