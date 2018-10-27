@@ -4,7 +4,7 @@ if(isset($_POST['email'])) {
     // CHANGE THE TWO LINES BELOW
     $email_to = "ricardonalves@gmail.com";
      
-    $email_subject = "website html form submissions";
+    $email_subject = "Cleaning Estimate Request";
      
      
     function died($error) {
@@ -28,7 +28,27 @@ if(isset($_POST['email'])) {
     $lastName = $_POST['lastName']; // required
     $email_from = $_POST['email']; // required
     $phone = $_POST['phone']; // not required
-    $AdditionalQuestions = $_POST['AdditionalQuestions']; // required
+    $address = $_POST['Address']; // not required
+    $city = $_POST['City'];
+    $zip = $_POST['ZipCode'];
+    $bedrooms = $_POST['Bedrooms'];
+    $bathrooms = $_POST['Bathrooms'];
+    $sqft = $_POST['SquareFootage'];
+    $type = $_POST['ServiceType'];
+    if ($_POST['FridgeCleaning']) {
+        $additionalServices = 'Fridge Cleaning - ';
+    }
+    if ($_POST['OvenCleaning']) {
+        $additionalServices .= 'Oven Cleaning - ';
+    }
+    if ($_POST['InteriorWindowCleaning']) {
+        $additionalServices .= 'Interior Window Cleaning - ';
+    }
+    if ($_POST['Laundry']) {
+        $additionalServices .= 'Laundry';
+    }
+    $AdditionalQuestions = $_POST['AdditionalQuestions'];
+    $pets = $_POST['PetsInHouse'];
      
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
@@ -42,13 +62,10 @@ if(isset($_POST['email'])) {
   if(!preg_match($string_exp,$lastName)) {
     $error_message .= 'The Last Name you entered does not appear to be valid.<br />';
   }
-  if(strlen($AdditionalQuestions) < 2) {
-    $error_message .= 'The Comments you entered do not appear to be valid.<br />';
-  }
   if(strlen($error_message) > 0) {
     died($error_message);
   }
-    $email_message = "Form details below.\n\n";
+    $email_message = "Estimate request from SorellasCleaning.com\n\n";
      
     function clean_string($string) {
       $bad = array("content-type","bcc:","to:","cc:","href");
@@ -58,11 +75,15 @@ if(isset($_POST['email'])) {
     $email_message .= "First Name: ".clean_string($firstName)."\n";
     $email_message .= "Last Name: ".clean_string($lastName)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
-    $email_message .= "First Name: ".clean_string($firstName)."\n";
-
-    $email_message .= "phone: ".clean_string($phone)."\n";
-    $email_message .= "Comments: ".clean_string($AdditionalQuestions)."\n";
-     
+    $email_message .= "Phone Number: ".clean_string($phone)."\n";
+    $email_message .= "Address: ".clean_string($address)." ".clean_string($city)." ".clean_string($zipcode)."\n";
+    $email_message .= "Number of Bedrooms: ".clean_string($bedrooms)."\n";
+    $email_message .= "Number of Bathrooms: ".clean_string($bathrooms)."\n";
+    $email_message .= "Square Footage: ".clean_string($sqft)."\n";
+    $email_message .= "Service Type: ".clean_string($type)."\n";
+    $email_message .= "Additional Services: ".clean_string($additionalServices)."\n";
+    $email_message .= "Are there any pets in your house? ".clean_string($pets)."\n\n";
+    $email_message .= "Additional Questions/Comments: ".clean_string($AdditionalQuestions)."\n";
      
 // create email headers
 $headers = 'From: '.$email_from."\r\n".
@@ -74,6 +95,10 @@ $headers = 'From: '.$email_from."\r\n".
 <!-- place your own success html below -->
  
 Thank you for contacting us. We will be in touch with you very soon.
+<?php
+header("Location: https://www.sorellascleaning.com/success.html"); /* Redirect browser */
+exit;
+?>
  
 <?php
 }

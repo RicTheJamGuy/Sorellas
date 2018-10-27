@@ -157,16 +157,13 @@
 	</section>
 	<!-- ind of Intro Section -->
 
-	<script src="form.js"></script>
-
-
 	<!-- Services Section -->
 	<section class="padding ptb-xs-40">
 		<div class="container">
-			<div class="row pb-60 pb-xs-40">
+			<div class="row">
 				<div class="col-md-8 offset-md-2">
 					<div class="section-title_home text-center">
-						<h2>Get an Estimate</h2>
+						<h2>Estimate</h2>
 						<span class="b-line"></span>
 						<p>
 							Please fill out the information below. We will get back to you as soon as we can!
@@ -176,11 +173,24 @@
 			</div>
 			<form role="form" method="post" id="regForm" action="send_email.php">
 
+				<!-- Circles which indicates the steps of the form: -->
+				<div style="text-align:center">
+					<span class="step"></span>
+					<span class="step"></span>
+					<span class="step"></span>
+					<span class="step"></span>
+					<span class="step"></span>
+					<span class="step"></span>
+					<span class="step"></span>
+					<br>
+					<br>
+				</div>
 
 				<!-- One "tab" for each step in the form: -->
 				<div class="tab">
-					<h3 class="text-center"> Your information
+					<h3 class="text-center"> Your Information
 					</h3>
+					<hr>
 					<div class="row">
 						<div class="col-lg-6">
 							<div class="form-group">
@@ -211,10 +221,12 @@
 							</div>
 						</div>
 					</div>
+					<hr>
 				</div>
 
 				<div class="tab">
-					<h3 class="text-center">Location to be cleaned</h3>
+					<h3 class="text-center">Location to be Cleaned</h3>
+					<hr>
 					<div class="row">
 						<div class="col-lg-12">
 							<div class="form-group">
@@ -237,10 +249,12 @@
 							</div>
 						</div>
 					</div>
+					<hr>
 				</div>
 
 				<div class="tab">
-					<h3 class="text-center">About your home</h3>
+					<h3 class="text-center">About Your Home</h3>
+					<hr>
 					<div class="row">
 						<div class="col-lg-6">
 							<div class="form-group">
@@ -269,11 +283,12 @@
 							</div>
 						</div>
 					</div>
+					<br>
 					<div class="row">
 						<div class="col-lg-12">
 							<div class="form-group">
-								<label for="SquareFootage">What is the square footage of your home?</label>
-								<select class="form-control">
+								<label for="SquareFootage">What Is The Square Footage Of Your Home?</label>
+								<select name="SquareFootage" id="SquareFootage" class="form-control">
 									<option value="lessThan1000">Less than 1,000 sq ft</option>
 									<option value="1000to1500">1,000 - 1,500sq ft</option>
 									<option value="1500to2000">1,500 - 2,000sq ft</option>
@@ -286,24 +301,26 @@
 								</select>
 							</div>
 						</div>
-
 					</div>
+					<hr>
 				</div>
 
 				<div class="tab">
 					<h3 class="text-center">
-						What kind of cleaning service would you like?
+						What Kind Of Cleaning Service Would You Like?
 					</h3>
+					<hr>
+					<br>
 					<div class="row">
-						<div class="col-lg-6 text-center">
+						<div class="col-lg-4 offset-lg-2">
 							<div class="form-check form-check-inline">
 								<label class="form-check-label">
-									<input class="form-check-input" type="radio" name="ServiceType" id="ServiceType" value="StandardCleaning">
+									<input class="form-check-input" type="radio" name="ServiceType" id="ServiceType" value="StandardCleaning" checked>
 									Standard Cleaning
 								</label>
 							</div>
 						</div>
-						<div class="col-lg-6 text-center">
+						<div class="col-lg-4 offset-lg-1">
 							<div class="form-check form-check-inline">
 								<label class="form-check-label">
 									<input class="form-check-input" type="radio" name="ServiceType" id="ServiceType" value="DeepCleaning"> Deep
@@ -312,50 +329,56 @@
 							</div>
 						</div>
 					</div>
+					<hr>
 				</div>
 
 				<div class="tab">
-					<h3 class="text-center">Additional services?</h3>
+					<h3 class="text-center">Additional Services?</h3>
+					<hr>
+					<br>
 					<div class="row">
-						<div class="col-lg-6 text-center">
+						<div class="col-lg-4 offset-lg-2">
 							<label>
 								<input type="checkbox" name="FridgeCleaning" id="FridgeCleaning"> Fridge cleaning </a>
 							</label>
 						</div>
-						<div class="col-lg-6 text-center">
+						<div class="col-lg-4 offset-lg-1">
 							<label>
 								<input type="checkbox" name="OvenCleaning" id="OvenCleaning"> Oven cleaning </a>
 							</label>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-lg-6 text-center">
+						<div class="col-lg-4 offset-lg-2">
 							<label>
 								<input type="checkbox" name="InteriorWindowCleaning" id="InteriorWindowCleaning"> Interior window cleaning </a>
 							</label>
 						</div>
-						<div class="col-lg-6 text-center">
+						<div class="col-lg-4 offset-lg-1">
 							<label>
 								<input type="checkbox" name="Laundry" id="Laundry"> Laundry </a>
 							</label>
 						</div>
 					</div>
+					<hr>
 				</div>
 
 				<div class="tab">
-					<h3 class="text-center">Are there any pets in your house?</h3>
+					<h3 class="text-center">Are There Any Pets In Your House?</h3>
+					<hr>
+					<br>
 					<div class="row">
-						<div class="col-lg-6 text-center">
+						<div class="col-lg-4 offset-lg-2">
 							<div class="form-group">
 								<div class="form-check form-check-inline">
 									<label class="form-check-label">
-										<input class="form-check-input" type="radio" name="PetsInHouse" id="PetsInHouse" value="Yes">
+										<input class="form-check-input" type="radio" name="PetsInHouse" id="PetsInHouse" value="Yes" checked>
 										Yes, I have a cat or dog
 									</label>
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-6 text-center">
+						<div class="col-lg-5 offset-lg-1">
 							<div class="form-group">
 								<div class="form-check form-check-inline">
 									<label class="form-check-label">
@@ -366,10 +389,12 @@
 							</div>
 						</div>
 					</div>
+					<hr>
 				</div>
 
 				<div class="tab">
 					<h3 class="text-center">Any additional questions or comments?</h3>
+					<hr>
 					<div class="row">
 						<div class="col-lg-12">
 							<div class="form-group w-100">
@@ -377,22 +402,13 @@
 							</div>
 						</div>
 					</div>
+					<hr>
 				</div>
 				<div style="overflow:auto;">
 					<div style="float:right;">
-					  <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
-					  <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+					  <button class="btn btn-default" type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+					  <button class="btn btn-default" type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
 					</div>
-				  </div>
-				  <!-- Circles which indicates the steps of the form: -->
-				  <div style="text-align:center;margin-top:40px;">
-					<span class="step"></span>
-					<span class="step"></span>
-					<span class="step"></span>
-					<span class="step"></span>
-					<span class="step"></span>
-					<span class="step"></span>
-					<span class="step"></span>
 				  </div>
 			</form>
 
