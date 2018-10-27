@@ -4184,7 +4184,8 @@ transform: scale(1);
     background: transparent;
 }
 .gallery-heading h4 {
-	color: white; /* services text color */
+	color: gray(); /* services text color */
+	font-weight: bold;
 }
 .gallery-heading {
 	transition: all 0.2s linear 0s;
@@ -4272,7 +4273,7 @@ transform: scale(1);
 	border: 2px solid #ccc;
 }
 .item-box:hover:before {
-	background: rgba(0, 0, 0, 0.20); /* services hover color */
+	background: rgba(255, 255, 255, 0.84); /* services hover color */
 }
 .item-container {
 	transform: scale(1);
