@@ -70,19 +70,26 @@ th { background:#F5F5F5; display:none; }
 	display:table-cell;
 }
 .bg-purple {
-	border-top:3px solid #0097CF;
+	border-top:3px solid #00aff0;
 }
 .bg-blue {
-	border-top:3px solid #0097CF;
+	border-top:3px solid #00aff0;
 }
 .sep {
 	background:#F5F5F5;
 	font-weight:bold;
 }
+.sep2 {
+	color: #222;
+	background:#FFF;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+}
 .txt-l { font-size:28px; font-weight:bold; }
 .txt-top { position:relative; top:-9px; left:-2px; }
 .tick { font-size:18px; color:#2CA01C; }
-.tickExtra { font-size:18px; color: #0097CF; }
+.tickExtra { font-size:18px; color: red; }
 .hide {
 	border:0;
 	background:none;
@@ -96,10 +103,10 @@ th { background:#F5F5F5; display:none; }
 		display:table-cell !important;
 	}
 	.dirty td,th {
-		width: 330px;
+		width: auto;
 
 	}
 	.dirty td+td, th+th {
-		width: auto;
+		width: 130px;
 	}
 }
