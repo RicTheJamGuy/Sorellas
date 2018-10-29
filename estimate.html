@@ -49,8 +49,8 @@
 	</div>
 
 	<!--loader-->
-	<!-- HEADER -->
-	<header>
+<!-- HEADER -->
+<header>
 		<div class="middel-part__block">
 			<div class="container">
 				<div class="row">
@@ -119,19 +119,19 @@
 					<div class="collapse navbar-collapse" id="navbar-menu">
 						<ul class="nav navbar-nav mobile-menu d-flex justify-content-between">
 							<li>
-								<a href="index.html" class="text-white">Home</a>
+								<a href="index.html" class="text-whiteBlack">Home</a>
 							</li>
 							<li>
-								<a href="about.html" class="text-white">About us</a>
+								<a href="about.html" class="text-whiteBlack">About us</a>
 							</li>
 							<li>
-								<a href="services.html" class="text-white">Services</a>
+								<a href="services.html" class="text-whiteBlack">Services</a>
 							</li>
 							<li>
-								<a href="estimate.html" class="text-white">Get an Estimate</a>
+								<a href="estimate.html" class="text-whiteBlack">Get an Estimate</a>
 							</li>
 							<li>
-								<a href="contact.html" class="text-white">Contact us</a>
+								<a href="contact.html" class="text-whiteBlack">Contact us</a>
 							</li>
 						</ul>
 					</div>
@@ -171,7 +171,7 @@
 					</div>
 				</div>
 			</div>
-			<form role="form" method="post" id="regForm" action="send_email.php">
+			<form role="form" method="post" id="regForm" action="send_estimate.php">
 
 				<!-- Circles which indicates the steps of the form: -->
 				<div style="text-align:center">
@@ -314,17 +314,17 @@
 					<div class="row">
 						<div class="col-lg-4 offset-lg-2">
 							<div class="form-check form-check-inline">
+								<input class="form-check-input" style="width: 20px; height: 20px; position: relative; top: 8px;" type="radio" name="ServiceType" id="ServiceType" value="StandardCleaning" checked>
 								<label class="form-check-label">
-									<input class="form-check-input" type="radio" name="ServiceType" id="ServiceType" value="StandardCleaning" checked>
 									Standard Cleaning
 								</label>
 							</div>
 						</div>
 						<div class="col-lg-4 offset-lg-1">
 							<div class="form-check form-check-inline">
+								<input class="form-check-input" style="width: 20px; height: 20px; position: relative; top: 8px;" type="radio" name="ServiceType" id="ServiceType" value="DeepCleaning">
 								<label class="form-check-label">
-									<input class="form-check-input" type="radio" name="ServiceType" id="ServiceType" value="DeepCleaning"> Deep
-									Cleaning
+									Deep Cleaning
 								</label>
 							</div>
 						</div>
@@ -338,25 +338,29 @@
 					<br>
 					<div class="row">
 						<div class="col-lg-4 offset-lg-2">
-							<label>
-								<input type="checkbox" name="FridgeCleaning" id="FridgeCleaning"> Fridge cleaning </a>
+							<input type="checkbox" class="form-check-input" style="width: 20px; height: 20px;" name="FridgeCleaning" id="FridgeCleaning"> 
+							<label class="form-check-label">
+								Fridge cleaning
 							</label>
 						</div>
 						<div class="col-lg-4 offset-lg-1">
-							<label>
-								<input type="checkbox" name="OvenCleaning" id="OvenCleaning"> Oven cleaning </a>
+							<input type="checkbox" class="form-check-input" style="width: 20px; height: 20px;" name="OvenCleaning" id="OvenCleaning"> 
+							<label class="form-check-label">
+								Oven cleaning
 							</label>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-lg-4 offset-lg-2">
-							<label>
-								<input type="checkbox" name="InteriorWindowCleaning" id="InteriorWindowCleaning"> Interior window cleaning </a>
+							<input type="checkbox" class="form-check-input" style="width: 20px; height: 20px;" name="InteriorWindowCleaning" id="InteriorWindowCleaning">
+							<label class="form-check-label">
+								Interior window cleaning
 							</label>
 						</div>
 						<div class="col-lg-4 offset-lg-1">
-							<label>
-								<input type="checkbox" name="Laundry" id="Laundry"> Laundry </a>
+							<input type="checkbox" class="form-check-input" style="width: 20px; height: 20px;" name="Laundry" id="Laundry"> 
+							<label class="form-check-label">
+								Laundry
 							</label>
 						</div>
 					</div>
@@ -371,8 +375,8 @@
 						<div class="col-lg-4 offset-lg-2">
 							<div class="form-group">
 								<div class="form-check form-check-inline">
+									<input class="form-check-input" style="width: 20px; height: 20px; position: relative; top: 8px;" type="radio" name="PetsInHouse" id="PetsInHouse" value="Yes" checked>
 									<label class="form-check-label">
-										<input class="form-check-input" type="radio" name="PetsInHouse" id="PetsInHouse" value="Yes" checked>
 										Yes, I have a cat or dog
 									</label>
 								</div>
@@ -381,8 +385,8 @@
 						<div class="col-lg-5 offset-lg-1">
 							<div class="form-group">
 								<div class="form-check form-check-inline">
+									<input class="form-check-input" style="width: 20px; height: 20px; position: relative; top: 8px;" type="radio" name="PetsInHouse" id="PetsInHouse" value="No">
 									<label class="form-check-label">
-										<input class="form-check-input" type="radio" name="PetsInHouse" id="PetsInHouse" value="No">
 										No, I don't have a cat or dog
 									</label>
 								</div>
@@ -407,6 +411,7 @@
 				<div style="overflow:auto;">
 					<div style="float:right;">
 					  <button class="btn btn-default" type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+					  &nbsp;&nbsp;&nbsp;
 					  <button class="btn btn-default" type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
 					</div>
 				  </div>

@@ -96,7 +96,7 @@ $headers = 'From: '.$email_from."\r\n".
  
 Thank you for contacting us. We will be in touch with you very soon.
 <?php
-header("Location: https://www.sorellascleaning.com/success.html"); /* Redirect browser */
+header("Location: /success.html"); /* Redirect browser */
 exit;
 ?>
  
