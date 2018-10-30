@@ -195,32 +195,26 @@
 					<h4>GET IN TOUCH</h4>
 					<p> We'll get back to you shortly. </p>
 					<!-- Contact FORM -->
-					<form class="contact-form mt-45" role="form" method="post" action="contactUs.php">
-						<!-- IF MAIL SENT SUCCESSFULLY -->
-						<div id="success">
-							<div role="alert" class="alert alert-success"> <strong>Thanks</strong> for using our template. Your message has
-								been sent. </div>
-						</div>
-						<!-- END IF MAIL SENT SUCCESSFULLY -->
+					<form class="contact-form mt-45" role="form" method="post" action="/contactUs.php">
 						<div class="row">
 							<div class="col-md-6 col-lg-6">
 								<div class="form-field">
-									<input class="input-sm form-full" id="name" type="text" name="form-name" placeholder="Your Name">
+									<input class="input-sm form-full" id="name" type="text" name="name" placeholder="Your Name">
 								</div>
 								<div class="form-field">
-									<input class="input-sm form-full" id="email" type="text" name="form-email" placeholder="Email">
+									<input class="input-sm form-full" id="email" type="text" name="email" placeholder="Email">
 								</div>
 								<div class="form-field">
-									<input class="input-sm form-full" id="sub" type="text" name="form-subject" placeholder="Subject">
+									<input class="input-sm form-full" id="sub" type="text" name="sub" placeholder="Subject">
 								</div>
 							</div>
 							<div class="col-md-6 col-lg-6">
 								<div class="form-field">
-									<textarea class="form-full" id="message" rows="7" name="form-message" placeholder="Your Message"></textarea>
+									<textarea class="form-full" id="message" rows="7" name="message" placeholder="Your Message"></textarea>
 								</div>
 							</div>
 							<div class="col-md-12 col-lg-12 mt-30">
-								<button class="btn-text" type="button" id="submit" name="button"> Send Message </button>
+								<button class="btn-text" type="submit" id="submit" name="button"> Send Message </button>
 							</div>
 						</div>
 					</form>
