@@ -1,5 +1,5 @@
 /* company overview shadow */
-
+/* Equal box height */
 
 .section-title_home h2 {
 	margin-bottom: 25px;
@@ -229,6 +229,15 @@
 	overflow: hidden;
 	padding: 30px 20px;
 }
+
+/* Equal box height */
+.row-eq-height {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display:         flex;
+}
+
 .content:before {
 	position: absolute;
 	top: 100%;
